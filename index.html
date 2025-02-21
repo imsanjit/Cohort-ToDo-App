@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-text">ToDo App</div>
+            <button class="nav-button" id="btnTheme">Light Theme</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="right-column">
+            <input id="userTaskInput" type="text" placeholder="Enter text">
+            <button id="btnAddTasks">Add Task</button>
+        </section>
+        <section class="left-column">
+            <div id='taskHeading'>
+                <h2>Your Task List</h2>
+                <button id="btnDeleteAll">Delete All Tasks</button>
+            </div>
+
+            <ul id="taskList-container">
+
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
